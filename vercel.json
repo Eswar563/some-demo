@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.js", 
+        "use": "@vercel/node" 
+      }
+    ],
+    "routes": [
+      {
+        "src": "/items",
+        "methods": ["GET", "POST"],
+        "dest": "index.js" 
+      },
+      {
+        "src": "/items/:id",
+        "methods": ["GET", "PUT", "DELETE"],
+        "dest": "index.js" 
+      }
+    ],
+    "env": {
+      "PORT": "4000",
+      "MONGODB_URI": "@MONGODB_URI" 
+    }
+  }
+  

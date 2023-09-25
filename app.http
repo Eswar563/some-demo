@@ -1,0 +1,22 @@
+POST http://localhost:4000/items
+Content-Type: application/json
+
+{
+  "name":"vieeeeeeeeeeeeeeeeenay"
+}
+
+###
+GET http://localhost:4000/
+
+###
+
+GET https://some-demo-9frdei8bw-eswar563.vercel.app/
+
+###
+
+POST https://sep25-01-erwiwe70r-eswar563.vercel.app/items
+Content-Type: application/json
+
+{
+  "name":"werty"
+}
